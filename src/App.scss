@@ -1,0 +1,28 @@
+.card{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+
+  &__img{
+    max-width: 100%;
+    height: auto;
+    border-radius: .5rem;
+  }
+
+  &__btn{
+    background: none;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: .5rem;
+
+    &:hover{
+      background-color: black;
+      color: white;
+    }
+  }
+}
